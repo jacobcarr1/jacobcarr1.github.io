@@ -31,6 +31,13 @@ body {
     background-color: rgb(159, 155, 155);
 }
 
+#main {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
 #hero {
     height: 100vh; /* Full viewport height */
     display: flex;
