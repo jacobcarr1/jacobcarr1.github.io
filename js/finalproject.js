@@ -1,5 +1,6 @@
 const checkbox = document.querySelectorAll("#songs");
 
+//alert for checkboxes
 checkbox[0].onclick = function(){
     alert("Aliens Exist was clicked!");
 }
