@@ -1,11 +1,4 @@
-function clearFields(reset) {
-    document.getElementById("clear").reset();
-}
-const Aliens Exist = document.querySelector("#Aliens Exist");
-const Whats My Age Again = document.querySelector("#What's My Age Again");
-const Dumpweed = document.querySelector("#Dumpweed");
-const Adams Song = document.querySelector("#Adam's Song");
-const All The Small Things = document.querySelectorAll("#All The Small Things");
+const checkbox = document.querySelectorAll("#songs");
 
 checkbox[0].onclick = function(){
     alert("Aliens Exist was clicked!")
