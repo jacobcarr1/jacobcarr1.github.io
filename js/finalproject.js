@@ -9,7 +9,7 @@ checkbox[1].onclick = function(){
     alert("What's My Age Again was clicked!");
 }
 
-checkbox[2].onclick = function("dumpweed"){
+checkbox[2].onclick = function(){
     alert("Dumpweed was clicked!");
 }
 
