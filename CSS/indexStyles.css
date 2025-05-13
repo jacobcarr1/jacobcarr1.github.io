@@ -31,11 +31,9 @@ body {
     background-color: rgb(159, 155, 155);
 }
 
-#main {
-    margin: 0;
-    padding: 0;
-    width: 0;
-    height: 0;
+img {
+    width: 500px;
+    height: auto;
 }
 
 #hero {
