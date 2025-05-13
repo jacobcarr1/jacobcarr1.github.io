@@ -26,7 +26,7 @@ nav {
 
 body {
     margin: 0;
-    background-image: url(../Media/blink182.jpg);
+    /*background-image: url(../Media/blink182.jpg);*/
     background-size: 100%;
     background-color: rgb(159, 155, 155);
 }
