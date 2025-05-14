@@ -17,3 +17,18 @@ function showEmail() {
     const email = document.getElementById("emailInput").value;
     alert("You entered:" + email);
 }
+
+function checkFavorite() {
+    const fav = document.getElementById("favMember").value;
+    const message = document.getElementById("memberMessage");
+
+    if (fav === "Tom") {
+        message.innerHTML = "Great choice!";
+    } else if (fav === "Mark") {
+        message.innerHTML = "Mark’s basslines are great!";
+    } else if (fav === "Travis") {
+        message.innerHTML = "Travis is a master drummer!";
+    } else {
+        message.innerHTML = "Please select a member!";
+    }
+}
