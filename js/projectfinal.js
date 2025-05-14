@@ -15,5 +15,5 @@ checkboxes.forEach((box, index) => {
 
 function showEmail() {
     const email = document.getElementById("emailInput").value;
-    alert("You entered: " + email);
+    alert("You entered:" + email);
 }
