@@ -20,7 +20,7 @@ function showEmail() {
 
 function checkFavorite() {
     const fav = document.getElementById("favMember").value;
-    const message = document.getElementById("memberMessage").value;
+    const message = document.getElementById("memberMessage");
 
     if (fav === "Tom") {
         message.innerHTML = "Great choice!";
