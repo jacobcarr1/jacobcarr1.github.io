@@ -12,3 +12,8 @@ const messages = [
 checkboxes.forEach((box, index) => {
   box.onclick = () => alert(messages[index]);
 });
+
+function showEmail() {
+    const email = document.getElementById("emailInput").value;
+    alert("You entered:" + email);
+}
