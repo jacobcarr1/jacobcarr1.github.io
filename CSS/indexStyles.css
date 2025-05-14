@@ -29,6 +29,8 @@ body {
     /*background-image: url(../Media/blink182.jpg);*/
     background-size: 100%;
     background-color: rgb(159, 155, 155);
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 img {
