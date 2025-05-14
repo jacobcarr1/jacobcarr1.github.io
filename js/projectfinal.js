@@ -17,14 +17,3 @@ function showEmail() {
     const email = document.getElementById("emailInput").value;
     alert("You entered:" + email);
 }
-
-
-function validateEmail() {
-    const email = document.getElementById("emailInput").value;
-
-    if (email === "") {
-        alert("Please enter your email address.");
-    } else {
-        alert("Thanks! Your email is:" + email);
-    }
-}
