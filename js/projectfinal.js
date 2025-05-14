@@ -18,12 +18,13 @@ function showEmail() {
     alert("You entered:" + email);
 }
 
-function checkFavoriteSong() {
-    const song = document.querySelector("input[name="favorite-song"]:checked");
 
-    if (song) {
-        alert("Your favorite song is:" + song.value);
+function validateEmail() {
+    const email = document.getElementById("emailInput").value;
+
+    if (email === "") {
+        alert("Please enter your email address.");
     } else {
-        alert("Please select your favorite song.");
+        alert("Thanks! Your email is:" + email);
     }
 }
