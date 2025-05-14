@@ -1,22 +1,14 @@
 const checkboxes = document.querySelectorAll(".song-checkbox");
 
-//alert for checkboxes
-checkbox[0].onclick = function(){
-    alert("Aliens Exist was clicked!");
-}
+const messages = [
+  "Aliens Exist was clicked!",
+  "What's My Age Again was clicked!",
+  "Dumpweed was clicked!",
+  "Adam's Song was clicked!",
+  "All The Small Things was clicked!"
+];
 
-checkbox[1].onclick = function(){
-    alert("What's My Age Again was clicked!");
-}
-
-checkbox[2].onclick = function(){
-    alert("Dumpweed was clicked!");
-}
-
-checkbox[3].onclick = function(){
-    alert("Adam's Song was clicked!");
-}
-
-checkbox[4].onclick = function(){
-    alert("All The Small Things was clicked!");
-}
+// Attach click event to each checkbox
+checkboxes.forEach((box, index) => {
+  box.onclick = () => alert(messages[index]);
+});
