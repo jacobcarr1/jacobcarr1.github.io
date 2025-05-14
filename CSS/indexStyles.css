@@ -46,3 +46,7 @@ img {
     max-width: 1200px;
     font-size: 500%;
 }
+
+#TOM, #HOPPUS, #TRAVIS {
+  width: 200px !important;
+}
