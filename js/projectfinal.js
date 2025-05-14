@@ -32,7 +32,7 @@ function checkFavorite() {
         message.innerHTML = "Please select a member!";
     }
 }
- // Keep the message visible for 5 seconds (5000 milliseconds)
+ // Keep the message visible for 5 seconds
     setTimeout(function() {
         message.innerHTML = ""; // Clear the message after 5 seconds
     }, 5000);  // 5000 ms = 5 seconds
