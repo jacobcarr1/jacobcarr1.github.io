@@ -1,4 +1,4 @@
-const checkbox = document.querySelectorAll("#songs");
+const checkbox = document.querySelectorAll(".song-checkbox");
 
 //alert for checkboxes
 checkbox[0].onclick = function(){
