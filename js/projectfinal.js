@@ -19,10 +19,10 @@ function showEmail() {
 }
 
 function checkFavoriteSong() {
-    const song = document.querySelector('input[name="favorite-song"]:checked');
+    const song = document.querySelector("input[name="favorite-song"]:checked");
 
     if (song) {
-        alert("Your favorite song is: " + song.value);
+        alert("Your favorite song is:" + song.value);
     } else {
         alert("Please select your favorite song.");
     }
