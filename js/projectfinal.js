@@ -37,3 +37,4 @@ function checkFavorite() {
         message.innerHTML = ""; // Clear the message after 5 seconds
     }, 5000);  // 5000 ms = 5 seconds
 }
+
