@@ -17,3 +17,13 @@ function showEmail() {
     const email = document.getElementById("emailInput").value;
     alert("You entered:" + email);
 }
+
+function checkFavoriteSong() {
+    const song = document.querySelector('input[name="favorite-song"]:checked');
+
+    if (song) {
+        alert("Your favorite song is: " + song.value);
+    } else {
+        alert("Please select your favorite song.");
+    }
+}
